@@ -13,6 +13,7 @@ The goal is to predict the binary class heart_disease_present, which represents 
 The model is trained by the ucl heart disease dataset
 the model is integrated with  django framework to make this a rest API
 To use the API the send the json in the following format to https://heartmlapi.herokuapp.com/weight/
+```
 { 
  "age":,
 "sex":,
@@ -28,8 +29,9 @@ To use the API the send the json in the following format to https://heartmlapi.h
  "ca":,
 "thal":
 }
-
+```
 For example :
+```
 { 
  "age":57,
 "sex":1,
@@ -45,6 +47,7 @@ For example :
  "ca":0,
 "thal":3
 }
+```
 The kaggle ucl heart disease dataset is used for training the model , refer  https://www.kaggle.com/ronitf/heart-disease-uci for more information about the dataset used 
 
 The API is hosted in heroku and a front end is also given for usage of the  model
