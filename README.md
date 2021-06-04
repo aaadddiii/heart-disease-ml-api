@@ -15,37 +15,37 @@ the model is integrated with  django framework to make this a rest API <br/>
 To use the API the send the json in the following format to https://heartmlapi.herokuapp.com/weight/ <br/>
 ```
 { 
- "age":,
-"sex":,
-"cp":,
-"trestbps":,
-"chol":,
-"fbs":,
-"restecg":,
-"thalach":,
-"exang":,
-"oldpeak":,
-"slope":,
- "ca":,
-"thal":
+   "age":,
+  "sex":,
+  "cp":,
+  "trestbps":,
+  "chol":,
+  "fbs":,
+  "restecg":,
+  "thalach":,
+  "exang":,
+  "oldpeak":,
+  "slope":,
+   "ca":,
+  "thal":
 }
 ```
 For example :
 ```
 { 
- "age":57,
-"sex":1,
-"cp":3,
-"trestbps":170,
-"chol":288,
-"fbs":0,
-"restecg":0,
-"thalach":159,
-"exang":0,
-"oldpeak":0.2,
-"slope":1,
- "ca":0,
-"thal":3
+   "age":57,
+  "sex":1,
+  "cp":3,
+  "trestbps":170,
+  "chol":288,
+  "fbs":0,
+  "restecg":0,
+  "thalach":159,
+  "exang":0,
+  "oldpeak":0.2,
+  "slope":1,
+   "ca":0,
+  "thal":3
 }
 ```
 The kaggle ucl heart disease dataset is used for training the model , refer  https://www.kaggle.com/ronitf/heart-disease-uci for more information about the dataset used <br/>
