@@ -8,7 +8,7 @@ Every year about 735,000 Americans have a heart attack. Of these, 525,000 are a 
 Heart disease is the leading cause of death for people of most ethnicities in the United States, including African Americans, Hispanics, and whites. For American Indians or Alaska Natives and Asians or Pacific Islanders, heart disease is second only to cancer.<br/>
 The goal is to predict the binary class heart_disease_present, which represents whether or not a patient has heart disease:<br/>
 0 represents no heart disease present <br/>
-1 represents heart disease present <br/>
+1 represents heart disease present <br/> 
 <br/>
 The model is trained by the ucl heart disease dataset <br/>
 the model is integrated with  django framework to make this a rest API <br/>
