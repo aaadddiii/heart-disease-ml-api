@@ -10,7 +10,7 @@ The goal is to predict the binary class heart_disease_present, which represents 
 0 represents no heart disease present <br/>
 1 represents heart disease present <br/> 
 <br/>
-The model is trained by the ucl heart disease dataset <br/>
+The model is trained using UCL heart disease dataset <br/>
 the model is integrated with  django framework to make this a rest API <br/>
 To use the API the send the json in the following format to https://heartmlapi.herokuapp.com/weight/ <br/>
 ```
