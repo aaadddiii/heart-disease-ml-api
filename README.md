@@ -48,8 +48,8 @@ For example :
   "thal":3
 }
 ```
-Response `1` indicates that the person has heart disease.
-Response `0` indicates that the person does not have heart disease
+Response `1` indicates that the person has heart disease.<br/>
+Response `0` indicates that the person does not have heart disease <br/>
 The kaggle ucl heart disease dataset is used for training the model , refer  https://www.kaggle.com/ronitf/heart-disease-uci for more information about the dataset used <br/>
 
 The API is hosted in heroku and a front end is also given for usage of the  model <br/>
